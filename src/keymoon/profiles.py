@@ -19,7 +19,7 @@ def start_profile(args):
     rest.post("/bot/profile/" + args.profile + "/run")
 
 def main():
-    parser = argparse.ArgumentParser(description='CronTab Editor')
+    parser = argparse.ArgumentParser(description='Keymoon Profiles')
 
     subparsers = parser.add_subparsers(dest="command")
 
